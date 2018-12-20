@@ -132,6 +132,7 @@ class GameScene: SKScene {
                         SKAction.wait(forDuration: 1.0)])))
     
     addChild(cameraNode)
+    
     camera = cameraNode
     cameraNode.position = CGPoint(x: size.width/2, y: size.height/2)
     livesLabel.text = "Lives: X"
